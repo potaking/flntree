@@ -91,9 +91,10 @@ st.divider()
 col_chk1, col_chk2 = st.columns(2)
 with col_chk1:
     st.subheader("✅ 행정 & 서류")
-    st.checkbox("Visit Japan Web 등록")
     st.checkbox("우라와 티켓 예매", value=True)
-    st.checkbox("여권 유효기간")
+    st.checkbox("Payments 준비")
+    st.checkbox("eSIM 준비")
+    
 
 with col_chk2:
     st.subheader("🎒 핵심 준비물")
