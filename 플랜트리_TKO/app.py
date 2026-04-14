@@ -28,31 +28,8 @@ else:
 
 st.divider()
 
-# --- 4. Mission Critical (티켓 & 지도) ---
-st.subheader("🚨 Mission Critical")
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("""
-        <div class="ticket-box">
-            <div class="ticket-label">URAWA TICKET</div>
-            <div class="ticket-value">2450-5862-77262</div>
-        </div>
-    """, unsafe_allow_html=True)
-    
-with col2:
-    st.markdown("""
-        <div class="ticket-box">
-            <div class="ticket-label">HOTEL MAP</div>
-            <div class="ticket-value">소테츠 프레사 인</div>
-        </div>
-    """, unsafe_allow_html=True)
-    st.link_button("📍 구글맵 열기", "https://maps.google.com/?q=소테츠+프레사+인+우에노+오카치마치", use_container_width=True)
-
-st.divider()
-
 # --- 5. Itinerary (일자별 탭) ---
-st.subheader("📅 Itinerary Timeline")
+st.subheader("📅🌳 플랜트리")
 tab1, tab2, tab3, tab4 = st.tabs(["4/27(월)", "4/28(화)", "4/29(수)", "4/30(목)"])
 
 with tab1:
@@ -84,6 +61,29 @@ with tab4:
     st.caption("조종사 지망생 필수 코스! 747 단면 및 시뮬레이터 체험")
     st.markdown("**18:30** 나리타 → 인천 (제주항공 7C1108)")
     st.link_button("🗺️ 박물관 지도", "https://maps.google.com/?q=Museum+of+Aeronautical+Sciences")
+
+st.divider()
+
+# --- 4. Mission Critical (티켓 & 지도) ---
+st.subheader("🚨 MEMO")
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("""
+        <div class="ticket-box">
+            <div class="ticket-label">URAWA TICKET</div>
+            <div class="ticket-value">2450-5862-77262</div>
+        </div>
+    """, unsafe_allow_html=True)
+    
+with col2:
+    st.markdown("""
+        <div class="ticket-box">
+            <div class="ticket-label">HOTEL MAP</div>
+            <div class="ticket-value">소테츠 프레사 인</div>
+        </div>
+    """, unsafe_allow_html=True)
+    st.link_button("📍 구글맵 열기", "https://maps.google.com/?q=소테츠+프레사+인+우에노+오카치마치", use_container_width=True)
 
 st.divider()
 
