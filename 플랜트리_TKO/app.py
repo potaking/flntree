@@ -22,9 +22,9 @@ now = datetime.now()
 d_day = (target_date - now).days
 
 if d_day > 0:
-    st.info(f"🚀 출국까지 **D-{d_day}** 남았습니다. 완벽한 비행을 준비하세요.")
+    st.info(f"🚀 출국까지 **D-{d_day}**")
 else:
-    st.success("🎉 드디어 출국일입니다! 안전한 여행 되세요.")
+    st.success("🎉 D-DAY!.")
 
 st.divider()
 
@@ -73,9 +73,9 @@ with tab2:
 
 with tab3:
     st.markdown("##### ⚽ MATCH DAY")
-    st.markdown("**14:00** 🏟️ 사이타마 스타디움 이동")
+    st.markdown("**10:00** 🏟️ 사이타마 스타디움 이동")
     st.caption("JR 우쓰노미야선 -> 셔틀버스. 일찍 도착해서 J리그 서포팅 문화 예습")
-    st.error("**19:00 우라와 레즈 vs 가와사키 프론탈레** (홈 자유석)")
+    st.error("**15:00 우라와 레즈 vs 가와사키 프론탈레** (홈 자유석)")
     st.link_button("🗺️ 사이타마 스타디움 지도", "https://maps.google.com/?q=Saitama+Stadium+2002")
 
 with tab4:
