@@ -81,7 +81,6 @@ with col2:
         <div class="ticket-box">
             <div class="ticket-label">HOTEL MAP</div>
             <div class="ticket-value">소테츠 프레사 인 우에노 오카치마치</div>
-            <div class="ticket-value">st.caption("〒110-0005 Tokyo, Taito City, Ueno, 1 Chome−20−8")</div>
         </div>
     """, unsafe_allow_html=True)
     st.link_button("📍 구글맵 열기", "https://maps.google.com/?q=소테츠+프레사+인+우에노+오카치마치", use_container_width=True)
