@@ -98,5 +98,5 @@ with col_chk1:
 with col_chk2:
     st.subheader("🎒 핵심 준비물")
     st.checkbox("트래블로그 카드")
-    st.checkbox("부천 FC 굿즈")
+    st.checkbox("여권")
     st.checkbox("110V 돼지코")
